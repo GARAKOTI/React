@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@400;500;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+nav {
+  max-width: 1280px;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  color: black;
+  font-weight: 500;
+}
+nav button {
+  all: unset;
+  background-color: var(--red);
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  border-radius: 30px;
+  font-weight: 500;
+  color: white;
+}
+#pageOne {
+  max-width: 1280px;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Hero-Content {
+  height: 100%;
+}
+
+.Hero-Content > h1 {
+  font-size: 110px;
+  word-spacing: 10px;
+  font-weight: 900;
+}
+.Hero-Content p {
+  width: 58%;
+  margin: 30px 0;
+}
+
+.btn {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+#btnOne {
+  all: unset;
+  background-color: var(--red);
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  border-radius: 30px;
+  font-weight: 500;
+  color: white;
+  font-size: 20px;
+}
+#btnTwo {
+  all: unset;
+  background-color: transparent;
+  padding: 10px 30px;
+  border: 2px solid black;
+  outline: none;
+  overflow: hidden;
+  border-radius: 30px;
+  font-weight: 500;
+  color: black;
+  font-size: 20px;
+}
+
+.store {
+  width: 30%;
+  height: 10%;
+  margin-top: 50px;
+}
+
+.store > h6 {
+  font-size: 20px;
+  font-weight: 100;
+}
+.store .store-logo {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Hero-Image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.Hero-Image img {
+  scale: 1;
+  transition: all ease 0.8s;
+}
+.Hero-Image img:hover {
+  scale: 1.2;
+  cursor: pointer;
+}
